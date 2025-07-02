@@ -69,6 +69,7 @@ We analyze the "Default of Credit Card Clients" dataset using multiple machine l
 🔹 **Class Imbalance Handling**:
   - **SMOTE caused overfitting**, so we used `scale_pos_weight` in XGBoost instead.
   - XGBoost **achieved AUC 0.82**, proving better for imbalanced classification.
+
 🔹 **Overfitting in Classification Trees:**
   - Initial unpruned models performed poorly in validation.
   - **Pruning techniques (`max_depth=4`, `min_samples_leaf=50`) improved generalization.**
