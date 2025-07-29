@@ -1,4 +1,4 @@
-# **Credit Card Default Prediction **
+# **Credit Card Default Prediction**
 
 ## **📌 Project Overview**
 This project aims to replicate and enhance the findings from the research paper:
